@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.row{
+    margin-top: 50px;
+}
+ul{
+    width: 80%;
+    background-color: aquamarine;
+
+}
+ul li{
+    border: 1px solid rgb(7, 95, 66);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: rgb(7, 95, 66);
+
+}
+.container ul li div{
+    display: none;
+}
+.container .active{
+ display: block;
+}
+div p{
+    color: rgb(3, 53, 53);
+    font-size: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: rgb(7, 95, 66);
+}
+i.add{
+    position: relative;
+    left: 10x;
+}
